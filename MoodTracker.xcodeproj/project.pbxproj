@@ -146,9 +146,11 @@
 				TargetAttributes = {
 					733C5BEF224AD54D0080E60B = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 					733C5C03224AD5500080E60B = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = 733C5BEF224AD54D0080E60B;
 					};
 				};
@@ -368,7 +370,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.esther.MoodTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -385,7 +387,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.esther.MoodTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -404,7 +406,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.esther.MoodTrackerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoodTracker.app/MoodTracker";
 			};
@@ -424,7 +426,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.esther.MoodTrackerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoodTracker.app/MoodTracker";
 			};
