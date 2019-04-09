@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		731AD7D6225BDA5200AB4344 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731AD7D5225BDA5200AB4344 /* RatingControl.swift */; };
 		733C5BF4224AD54D0080E60B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733C5BF3224AD54D0080E60B /* AppDelegate.swift */; };
 		733C5BF6224AD54D0080E60B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733C5BF5224AD54D0080E60B /* ViewController.swift */; };
 		733C5BF9224AD54D0080E60B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 733C5BF7224AD54D0080E60B /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		731AD7D5225BDA5200AB4344 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		733C5BF0224AD54D0080E60B /* MoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		733C5BF3224AD54D0080E60B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		733C5BF5224AD54D0080E60B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				733C5BF3224AD54D0080E60B /* AppDelegate.swift */,
 				733C5BF5224AD54D0080E60B /* ViewController.swift */,
 				733C5BF7224AD54D0080E60B /* Main.storyboard */,
+				731AD7D5225BDA5200AB4344 /* RatingControl.swift */,
 				733C5BFA224AD5500080E60B /* Assets.xcassets */,
 				733C5BFC224AD5500080E60B /* LaunchScreen.storyboard */,
 				733C5BFF224AD5500080E60B /* Info.plist */,
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				733C5BF6224AD54D0080E60B /* ViewController.swift in Sources */,
+				731AD7D6225BDA5200AB4344 /* RatingControl.swift in Sources */,
 				733C5BF4224AD54D0080E60B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,7 +366,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MoodTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -370,6 +376,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.esther.MoodTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -379,7 +386,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MoodTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -387,6 +396,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.esther.MoodTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
